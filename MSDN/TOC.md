@@ -1,7 +1,7 @@
 # [Artigos Técnicos](index.md)
 
 ## [Nuvem](Nuvem/TOC.md)
-
+## [Windows](Windows/TOC.md)
 <!--
 
 ## [Windows](Windows/TOC.md)
