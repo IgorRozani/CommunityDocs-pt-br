@@ -1,2 +1,2 @@
-#[drill-down no Power BI](Office/PowerBI-Renato.md)
+#[drill-down no Power BI](PowerBI-Renato.md)
 
