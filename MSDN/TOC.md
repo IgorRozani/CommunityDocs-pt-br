@@ -1,9 +1,16 @@
-# [Artículos Técnicos](index.md)
-## [ALM](ALM/TOC.md)
-## [Desarrollo de Nube](cloud/TOC.md)
-## [Desarrollo Web](web-dev/TOC.md)
-## [Desarrollo Windows](win-dev/TOC.md)
-## [Desarrollo .NET](net-dev/TOC.md)
-## [Enterprise Management Suite](ems/TOC.md)
-## [Internet Explorer](ie/TOC.md)
-## [Servidores](servidores/TOC.md)
+# [Artigos Técnicos](index.md)
+
+## [Nuvem](Nuvem/TOC.md)
+
+<!--
+
+## [Windows](Windows/TOC.md)
+## [Web](web.md)
+## [Visual Studio & ALM](visualstudio.md)
+## [Mobile](mobile.md)
+## [Office](office.md)
+## [Servidores & Soluções](servidores.md)
+## [Technologia .NET](technologianet.md)
+## [Segurança](seguranca.md)
+## [Games](games.md)
+-->
