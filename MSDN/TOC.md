@@ -2,6 +2,8 @@
 
 ## [Nuvem](Nuvem/TOC.md)
 
+##[Office](office/PowerBI-Renato.md)
+
 <!--
 
 ## [Windows](Windows/TOC.md)
