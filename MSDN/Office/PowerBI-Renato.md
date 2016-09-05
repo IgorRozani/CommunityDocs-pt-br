@@ -25,15 +25,6 @@ Novembro, 2015
 O Power BI é uma ferramenta de relatórios que a Microsoft criou para ser usada por qualquer pessoa. Ela é tão interativa e intuitiva que profissionais como analista de negócios, analista de dados, desenvolvedores de softwares, gerentes e diretores de diversas áreas conseguem montar relatórios fantásticos.
 O objetivo deste artigo é explorar o conceito de DrillDown, ou seja, a partir de uma fonte de dados relacionada, como vendas por categorias, produtos, pedidos e detalhes do pedido, conseguimos navegar diretamente no relatório, a fim de pesquisar e chegar até o ponto desejado de visualização destes dados. A figura 1 mostra um dashboard com alguns tipos de gráficos que o Power BI disponibiliza.
 
-![](./img/PowerBI-Aug-001.png)
-    
-
-Ahora vamos a proceder a probar el código creando una prueba unitaria.
-El primer paso es agregar un proyecto a la solución del tipo Test –&gt;
-vamos a utilizar MSTest para hacer las pruebas unitarias en este ejemplo
-\[Observación: Yo utilizo Visual Studio Ultimate por lo tanto algunas
-opciones de testing pueden no aparecer en otras versiones menores o
-pueden estar en otro orden\].
 
 ![](./img/PowerBI-Aug-001.png)
 
