@@ -18,7 +18,7 @@ ms.custom: CommunityDocs
 
 ##**Renato Haddad**
 **MVP ASP.NET /MCP/MCTS/MCPD/RD**
-Novembro, 2015
+Setembro, 2016
 
 [Blog](http://weblogs.asp.net/renatohaddad/)
 
