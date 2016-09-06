@@ -2,6 +2,8 @@
 
 ## [Nuvem](Nuvem/TOC.md)
 
+## [Office](Office/TOC.md)
+
 <!--
 
 ## [Windows](Windows/TOC.md)
