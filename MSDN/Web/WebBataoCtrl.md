@@ -48,6 +48,149 @@ body {
 }
 
 ```
-    
-![](./img/PowerBI-Aug-013.png)
 
+Code 1.1 – print.css
+
+Esse arquivo .css possui duas tags importantes, uma chamada “naoimprime” e a outra chamada “imprime”. Essas tags precisam ser chamadas de dentro do arquivo .html, .htm, .aspx, .jsf e tudo mais. Lembro que todo esse código funciona em qualquer linguagem e qualquer browser.
+
+Para chamar essas tags do code 1.1, basta colocar o id = “naoimprime” ou id = “imprime”.
+
+#Segundo passo
+
+O segundo passo envolve a criação de uma página em html ou qualquer extensão que está programando, chamando o arquivo .css e definindo o que pode e não pode imprimir. O code 1.2 mostra isso.
+
+```
+CSS
+
+<html>
+<head>
+<title>Titulo</title>
+<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+</head>
+<body>
+<div id="naoimprime">
+Minha página com informações confidenciais.<br>
+É necessário fazer bloquear o imprimir.<br>
+A pessoa não pode imprimir esse documento, <br>
+se for imprimir, é necessário clica no nosso botão primeiro
+que faz o log.
+</div>
+<div id="imprime">
+<p>
+This document is block! Please use our button to do this!.
+<br>
+</p>
+</div>
+</body>
+</html>
+```
+
+Code 1.2 - Página HTML.
+
+Na quarta linha do code 1.2 chama o arquivo print.css indicando a propriedade media=”print”. Depois da tag “body” existe a tag div com o id=”naoimprime”. Tudo que estiver dentro dessa div não vai imprimir. É dentro dela que você coloca o conteúdo da sua página ou sistema.
+
+Depois que fechar a tag div, se achar necessário você pode colocar outra tag com o id=”imprime”. Tudo que estiver dentro dessa tag poderá ser impressa sem qualquer problema. Mesmo que usuário clique Ctrl + P ou acesse o endereço Arquivo >> Imprimir, tudo que será impresso é a mensagem falando que o documento está bloqueado. É assim que funciona o bloqueio de impressão sem qualquer problema.
+
+A figura 1 mostra o que acontece se o usuário tentar imprimir.
+
+![](./img/WebBataoCtrl001.png)
+
+Figura 1 – Tentando imprimir
+
+#Terceiro passo
+
+O terceiro passo envolve colocar o JavaScript dentro da página para bloquear o botão Ctrl. Se o usuário clicar nesse botão, uma mensagem aparece e não deixa que nada aconteça. Em alguns casos, é melhor usar um “popup” para evitar problemas; isso porque o usuário pode usar o menu do browser.
+
+No geral a parte em JavaScript está pronta e você pode colocar no início da página.
+
+```
+JavaScript
+
+<SCRIPT LANGUAGE="JavaScript1.2">
+function alerta(){
+alert('A página não pode ser salva.');
+return false;
+}
+
+function verificaBotao(oEvent){
+    var oEvent = oEvent ? oEvent : window.event;
+    var tecla = (oEvent.keyCode) ? oEvent.keyCode : oEvent.which;
+if(tecla == 17 || tecla == 44|| tecla == 106){
+alerta();
+ }
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript1.2">
+document.onkeypress = verificaBotao;
+document.onkeydown = verificaBotao;
+document.oncontextmenu = alerta;
+</script>
+```
+
+Code 1.3
+
+Note que o code 1.3 possui duas funções específicas. Essa função é colocada dentro da tag head da página html. A primeira função chama “alert”, onde a mensagem é exibida para o usuário. A segunda função chama “verificaBotao” onde recebe um evento. Esse evento detecta o número da tecla apertada e se for 17, 44 ou 106 então a mensagem aparece na tela.
+
+O grande problema do JavaScript é fazer executar mesmo que não tiver dentro de um tempo “input”. Para resolver esse problema, foi atribuído no documento os eventos “onkeypress”, “onkeydown” e “oncontextmenu”, responsáveis pelo clique em qualquer parte da página. Isso faz com que, mesmo que a página não tenha nenhum campo “input”, se for colocado a tecla a mensagem aparece.
+
+Para finalizar, o code 1.4 mostra toda página.
+
+```
+JavaScript
+
+<html>
+<head>
+<title>Titulo</title>
+<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+<SCRIPT LANGUAGE="JavaScript1.2">
+function alerta(){
+alert('A página não pode ser salva.');
+return false;
+}
+
+function verificaBotao(oEvent){
+    var oEvent = oEvent ? oEvent : window.event;
+    var tecla = (oEvent.keyCode) ? oEvent.keyCode : oEvent.which;
+if(tecla == 17 || tecla == 44|| tecla == 106){
+alerta();
+ }
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript1.2">
+document.onkeypress = verificaBotao;
+document.onkeydown = verificaBotao;
+document.oncontextmenu = alerta;
+</script>
+</head>
+
+<body>
+<div id="naoimprime">
+Minha página com informações confidenciais.<br>
+É necessário fazer bloquear o imprimir.<br>
+A pessoa não pode imprimir esse documento, <br>
+se for imprimir, é necessário clica no nosso botão primeiro
+que faz o log.
+</div>
+
+<div id="imprime">
+<p>
+This document is block! Please use our button to do this!.
+<br>
+
+</p>
+</div>
+</body>
+</html>
+```
+
+Code 1.4 – Toda a página
+
+A figura 2 mostra a mensagem na tela do usuário.
+
+![](./img/WebBataoCtrl002.png)
+
+Figura 2 – Mensagem na tela. 
+
+Bom, eu fico por aqui e qualquer dúvida pode entrar em contato pelo site www.mauriciojunior.org. Abraços e espero que tenha gostado.
