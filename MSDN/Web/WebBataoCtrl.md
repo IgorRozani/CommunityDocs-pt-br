@@ -34,7 +34,8 @@ Lembro que me baseei pesquisando na Internet e juntando algumas peças necessár
 O primeiro passo é criar um arquivo chamado print.css, simples e fácil. Esse arquivo pode ser criado usando o notepad do Windows sem qualquer dificuldade. Eu resolvi chamar o arquivo de print.css pelo fato de que o arquivo é focado apenas para imprimir. O code 1.1 mostra o código desenvolvido.
 
 ```
-CSS
+#CSS
+
 body {
 }
 #naoimprime 
