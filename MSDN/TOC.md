@@ -1,20 +1,21 @@
-# [Artigos Técnicos](index.md)
+#[Architecture](architecture/TOC.md)
+#[Office](office/TOC.md)
+#[SQL Server](sql-server/TOC.md)
+#[Windows Server](windows-server/TOC.md)
 
-## [Nuvem](Nuvem/TOC.md)
 
-## [Office](Office/TOC.md)
-
-## [Web](Web/TOC.md)
-
-<!--
-
-## [Windows](Windows/TOC.md)
-## [Web](web.md)
-## [Visual Studio & ALM](visualstudio.md)
-## [Mobile](mobile.md)
-## [Office](office.md)
-## [Servidores & Soluções](servidores.md)
-## [Technologia .NET](technologianet.md)
-## [Segurança](seguranca.md)
-## [Games](games.md)
--->
+#[Cómo crear una tabla que presente repeticiones de rangos de números](Como crear una tabla que presente repeticiones de rangos de numeros.md)
+#[Servicios InterGranjas para Gobiernos Corporativos y Administrativos con SharePoint 2010](Servicios InterGranjas.md)
+#[Roles de Site System en CM 2012](Roles de Site System en CM 2012.md)
+#[Reporting Services en Azure](Reporting Services en Azure.md)
+#[Qué hay de nuevo en CM 2012 SP1](Que hay de nuevo en CM 2012 SP1.md)
+#[Microsoft Dynamics NAV en el Cloud](Microsoft Dynamics NAV en el Cloud.md)
+#[Lo nuevo en System Center 2012 R2 Configuration Manager](Lo nuevo en System Center 2012 R2 Configuration Manager.md)
+#[Jerarquía Configuration Manager 2012](Jerarquia CM2012.md)
+#[Guía Migración de Objetos desde Configuration Manager 2007 a CM 2012](Guia Migracion de Objetos.md)
+#[Guía de Migración de Objetos -Job- paso a paso](Guia de Migracion de Objetos Job.md)
+#[Funcionalidades de CM 2012](Funcionalidades de CM 2012.md)
+#[Cómo hacer un backup en Azure desde SSMS 2014](Backup en Windows Azure desde SSMS 2014.md)
+#[Cómo hacer Backup y Restaurar un Modelo MDS (Deploy)](Backup y Restaurar un Modelo MDS.md)
+#[Notificaciones a usuarios y miembros del Service Desk](SCSM-Notificaciones-I.md)
+#[Controladores de Dominio: Copia de Seguridad y Recuperar](Copia-de-Seguridad-y-Recuperar.md)
