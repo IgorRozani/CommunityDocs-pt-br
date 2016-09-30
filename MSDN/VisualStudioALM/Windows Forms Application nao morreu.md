@@ -24,7 +24,7 @@ A minha dica pra você programador é que, aprenda a trabalhar com essa platafor
 
 Para iniciar um projeto Windows Forms Application é necessário escolher a opção Windows Desktop e no primeiro item existe o template. Veja a figura 1.
 
-![Image](images/tela-1.png)
+![Image](img/tela-1.png)
 
 Escolhendo template
 
