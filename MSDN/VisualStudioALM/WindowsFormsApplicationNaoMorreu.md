@@ -16,7 +16,7 @@ ms.custom: CommunityDocs
 **MVP, MCAD e MCP Microsoft**
 Setembro, 2016
 
-[Homepage](www.mauriciojunior.org)
+[Homepage](https://www.mauriciojunior.org)
 
 
 Olá pessoal, hoje eu vou falar um pouco sobre o Windows Forms. Vou mostrar também um software sendo construído passo a passo com menu e sistema básico de login usando App.config. Nesse primeiro passo, vou verificar se o usuário e senha estão iguais ao arquivo de configuração.
