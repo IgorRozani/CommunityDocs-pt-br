@@ -16,7 +16,7 @@ ms.custom: CommunityDocs
 **MVP, MCAD e MCP Microsoft**
 Setembro, 2016
 
-[Homepage](www.mauriciojunior.org)
+[Homepage](https://www.mauriciojunior.org)
 
 
 Antes da *Internet* aparecer e reinar no mundo, os *softwares* e programas era feitos em plataforma *desktop*, ou seja, eram feitos para executar localmente nos sistema operacionais Windows, Linux ou MacOS (nome alterado recentemente). Os *softwares* criados para Windows eram criados em linguagens antigas como VB, C, C++, Delphi, Pascal e outras. Agora as linguagens existentes estão focando mais em sistemas *web* e que funciona pelo *browser*.
