@@ -111,7 +111,7 @@ O comando de sair é simples basta usar o método Exit() do Application, mostrad
 
 O próximo passo é gerar um novo formulário responsável pelo login. Vou usar basicamente dois labels, dois textBoxs e dois botões. Veja a figura 7 mostrando o form.
 
-![Image](images/tela-7.png)
+![Image](img/tela-7.png)
 
 Figura 7 - Tela de login
 
