@@ -27,7 +27,7 @@ Um exemplo disso são empresas que precisam que o *software* funcione mesmo que 
 
 Imagine você precisar de *Internet* para escrever um texto no Microsoft Word. Não seria aplicável dia a dia, principalmente na realidade brasileira. Veja alguns itens falando sobre *Web* e *Desktop*.
 
-![Img](images/Softwares.png)
+![Img](img/Softwares.png)
 
 Figura 1 - Softwares (Web e Desktop)
 
