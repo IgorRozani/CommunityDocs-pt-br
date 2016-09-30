@@ -1,4 +1,23 @@
+---
+title: Windows Forms Application não morreu
+description: Olá pessoal, hoje eu vou falar um pouco sobre o Windows Forms. Vou mostrar também um software sendo construído passo a passo com menu e sistema básico de login usando App.config. Nesse primeiro passo, vou verificar se o usuário e senha estão iguais ao arquivo de configuração.
+author: MSCommunityPubService
+ms.date: 09/30/2016
+ms.topic: how-to-article
+ms.service: Windows Forms
+ms.custom: CommunityDocs
+---
+
+
 #Windows Forms Application não morreu
+
+
+##**Mauricio Junior**
+**MVP, MCAD e MCP Microsoft**
+Setembro, 2016
+
+[Homepage](www.mauriciojunior.org)
+
 
 Olá pessoal, hoje eu vou falar um pouco sobre o Windows Forms. Vou mostrar também um software sendo construído passo a passo com menu e sistema básico de login usando App.config. Nesse primeiro passo, vou verificar se o usuário e senha estão iguais ao arquivo de configuração.
 
@@ -32,7 +51,7 @@ Escolhendo template
 Digite um nome no campo Name, escolha um local clicando no botão Browse… e clique no botão Ok.
 
 
-![Image](images/tela-2.png)
+![Image](img/tela-2.png)
 
 Figura 1 - Solution Explorer
 
@@ -42,21 +61,21 @@ Para gerar um novo formulário, basta clicar com o botão direito em cima do Win
 
 O Visual Studio entrega pra você vários objetos para serem utilizados dentro do seu programa ou software. 
 
-![Image](images/tela-3i.png)
+![Image](img/tela-3i.png)
 
 Figura 2 - Ferramenta e objetos
 
 Note que existem objetos como Button, CheckBox, Label, TextBox e muitos outros. O primeiro passo depois de ver os objetos é colocar o formulário principal como mdiContainer = true. Isso faz com que exista um formulário pai e outros filhos. Veja a figura 3.
 
 
-![Image](images/tela-3.png)
+![Image](img/tela-3.png)
 
 Figura 3 - Colocar o formulário 1 como pai.
 
 
 Pra que serve que o formulário 1 virar pai? A resposta é simples: para não ficar abrindo várias telas ao mesmo tempo, evita consumir memória da sua máquina e mais. O software acaba gerenciando todo o esquema de tela para você quando utiliza tela pai e tela filhos. 
 
-![Image](images/tela-4.png)
+![Image](img/tela-4.png)
 
 Figura 4 - Formulário pai
 
@@ -64,19 +83,19 @@ Figura 4 - Formulário pai
 Note que o formulário pai é cinza e possui um menu principal. As outras telas não precisam de menu. Para colocar um menu no formulário pai, é necessário encontrar o objeto na tela de ferramentas, clicar, arrastar e jogar.
 Acesse o item Menus & Toolbars, dentro do item existe o MenuStrip. O objeto é responsável pela criação do menu simples e prático. Veja a figura 5.
 
-![Image](images/tela-5.png)
+![Image](img/tela-5.png)
 
 Figura 5 - Objeto de menu para a tela principal.
 
 Para gerar o menu é muito simples, basta clicar uma vez e digitar a descrição. A figura 6 eu mostro os três itens criados. Menu Principal, Cadastrar e Sair.
 
-![Image](images/tela-4.png)
+![Image](img/tela-4.png)
 
 Figura 6 - Adicionando menus
 
 Onde está escrito “Type Here” basta clicar e digitar. E como fazer para chamar a tela específica? Basta clicar duas vezes no item que deseja, por exemplo: clique duas vezes em cima do nome Cadastrar. A ferramenta gera um método do menu para chamar. O código 1 mostra o método criado pelo menu.
 
-![Image](images/codigo-1.png)
+![Image](img/codigo-1.png)
 
 Código 1 - Método do menu
 
@@ -84,7 +103,7 @@ A primeira linha do código um mostra a criação de instância do formulário. 
 
 Acessando o menu novamente, cliquei duas vezes no menu Sair. Vou colocar um comando que faz com que o programa feche. Código 2.
 
-![Image](images/codigo-2.png)
+![Image](img/codigo-2.png)
 
 Código 2 - Comando de sair
 	
@@ -106,13 +125,13 @@ Sair: btnSair
 
 A regra principal é verificar se o usuário e senha estão iguais aos dados que estão no arquivo de configuração. O arquivo de configuração chamado App.config possui dois atributos abertos. Não é bom ficar aberto, mas neste primeiro momento vamos utilizar sem criptografia. Veja a figura 8.
 
-![Image](images/tela-8.png)
+![Image](img/tela-8.png)
 
 Figura 8 - Arquivo de configuração com dados abertos
 	
 Acesse o arquivo App.config e digite as tags de nome e senha dentro da tag principal chamada appSettings. Voltando para a tela de login, clique duas vezes no botão de entrar. Veja o código 3.
 
-![Image](images/codigo-3.png)
+![Image](img/codigo-3.png)
 
 Código 3 - Botão de entrar
 
