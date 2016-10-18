@@ -1,5 +1,5 @@
 ---
-title: Windows Forms Application não morreu
+title: Team Services: como controle de código fonte
 description: Olá pessoal, hoje eu vou falar um pouco sobre o Windows Forms. Vou mostrar também um software sendo construído passo a passo com menu e sistema básico de login usando App.config. Nesse primeiro passo, vou verificar se o usuário e senha estão iguais ao arquivo de configuração.
 author: MSCommunityPubService
 ms.date: 09/30/2016
