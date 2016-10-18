@@ -12,7 +12,7 @@ ms.custom: CommunityDocs
 
 ##**Mauricio Junior**
 **MVP, MCAD e MCP Microsoft**
-Setembro, 2016
+Outubro, 2016
 
 [Homepage](https://www.mauriciojunior.org)
 
