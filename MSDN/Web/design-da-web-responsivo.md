@@ -21,7 +21,23 @@ Tudo começou com Design da Web responsivo, um artigo de Ethan Marcotte em A Lis
 Três recursos técnicos principais são a alma do design de Web responsivo:
 
 * Consultas de mídia e ouvintes de consultas de mídia
-*
-*
+* Um layout flexível baseado em grade que usa dimensionamento relativo
+* Imagens e mídia flexíveis, através do redimensionamento dinâmico ou CSS
 
+O design de Web verdadeiramente responsivo exige que os três recursos sejam implantados
 
+O ponto principal é a adaptação às necessidades do usuário e às capacidades do dispositivo. Imagine que um usuário móvel verá o seu site em uma tela pequena. Levar as necessidades do usuário em consideração não significa apenas adaptar seu conteúdo ao tamanho da tela. Significa também pensar no que aquele usuário móvel precisará primeiro quando visitar seu site e então elaborar o conteúdo de acordo. Talvez você apresente as informações em uma ordem diferente. Não presuma que o usuário não precisará de acesso a todas as informações do site só porque está em um dispositivo móvel. Você pode precisar mudar as fontes ou as áreas de interação para responder melhor a um ambiente de toque. Todos esses fatores influenciam o design de Web responsivo.
+
+Embora os dispositivos móveis estejam mudando o panorama das telas, com o aparecimento crescente de mais e mais telas pequenas, não se esqueça do que está acontecendo do outro lado do espectro. Telas também estão se tornando cada vez maiores. Precisar atender aos dois segmentos não deveria impedir designers de serem inovadores em nenhum deles. 
+
+Consultas de mídia
+
+Começando com CSS 2.1, tipos de mídia eram usados para aplicara CSS tanto para tela como para impressão. Você deve se lembrar destes tipos de mídia:
+
+'''
+CSS
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="printfriendly.css" media="print" />
+
+'''
