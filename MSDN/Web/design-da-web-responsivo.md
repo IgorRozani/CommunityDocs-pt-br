@@ -34,10 +34,8 @@ Consultas de mídia
 
 Começando com CSS 2.1, tipos de mídia eram usados para aplicara CSS tanto para tela como para impressão. Você deve se lembrar destes tipos de mídia:
 
-'''
 CSS
 
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="printfriendly.css" media="print" />
 
-'''
