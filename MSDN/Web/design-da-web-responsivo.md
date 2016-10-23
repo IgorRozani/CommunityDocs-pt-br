@@ -38,6 +38,11 @@ Começando com CSS 2.1, tipos de mídia eram usados para aplicara CSS tanto para
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />'
 <link rel="stylesheet" type="text/css" href="printfriendly.css" media="print" />
 ```
+Era assim! Felizmente, o W3C melhorou (consultas de mídia http://www.w3.org/TR/css3-mediaqueries/) no CSS3, levando-as um passo adiante.
+
+Hoje, você pode usar consultas de mídia para definir estilos para capacidades específicas, aplicando diferentes estilos com base nas capacidades que correspondam à sua consulta. Pode até combinar consultas e testar diversos recursos usando operadores semânticos (como AND e NOT). Recursos incluem largura, altura, largura máxima, altura máxima, altura do dispositivo, orientação, taxa de proporção, resolução e outros.
+
+Há três maneiras de se implementar consultas de mídia:
 
 
 
