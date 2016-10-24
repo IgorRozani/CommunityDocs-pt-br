@@ -362,7 +362,7 @@ E quanto a navegadores antigos que não suportam consultas de mídia? E quanto a
 * Response.js: github.com/scottjehl/Respond
 * Imagens fluidas. unstoppablerobotninja.com/entry/fluid-images/
 
-#Conclusão
+##Conclusão
 
 Entrar na onda do design de Web responsivo é algo para ser levado a sério. Considere o que você precisa conseguir e se atender a uma versão específica de um dispositivo desktop ou móvel específico é o ideal.
 
