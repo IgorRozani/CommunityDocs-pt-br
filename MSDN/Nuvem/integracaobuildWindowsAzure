@@ -1,6 +1,7 @@
 title: Como fazer Integração Contínua de Build no Windows Azure usando o Visual Studio Online?
 description: Neste artigo vou mostrar um passo a passo de como criar uma conta e usar o VS Online, integrar no Windows Azure, usar o Visual Studio 2013 para criar um projeto, fazer o deploy no Azure através do VS Online e explorar as opções disponíveis no site do projeto no Azure para um melhor acompanhamento e gerenciamento. E, é claro, quais as ferramentas disponíveis no VS 2013 para automatizar esta integração.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 09/30/2016
 ms.topic: how-to-article
 ms.service: Windows Forms
