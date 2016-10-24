@@ -2,6 +2,7 @@
 title: Curso de Windows Forms Application
 description: Antes da *Internet* aparecer e reinar no mundo, os *softwares* e programas era feitos em plataforma *desktop*, ou seja, eram feitos para executar localmente nos sistema operacionais Windows, Linux ou MacOS (nome alterado recentemente). Os *softwares* criados para Windows eram criados em linguagens antigas como VB, C, C++, Delphi, Pascal e outras. Agora as linguagens existentes estão focando mais em sistemas *web* e que funciona pelo *browser*.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 09/30/2016
 ms.topic: how-to-article
 ms.service: Windows Forms

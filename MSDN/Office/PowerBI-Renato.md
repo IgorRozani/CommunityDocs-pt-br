@@ -2,6 +2,7 @@
 title: drill-down no Power BI
 description: O Power BI é uma ferramenta de relatórios que a Microsoft criou para ser usada por qualquer pessoa. Ela é tão interativa e intuitiva que profissionais como analista de negócios, analista de dados, desenvolvedores de softwares, gerentes e diretores de diversas áreas conseguem montar relatórios fantásticos.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 09/04/2016
 ms.topic: how-to-article
 ms.service: Microsoft PowerBI

@@ -1,9 +1,11 @@
 ---
 title: Construindo Chat Bots com a plataforma Microsoft Bot Framework
 description: Neste artigo irei abordar o conceito de chat bots e mostrar como podemos desenvolver aplicações inteligentes para interagir com usuários de forma mais natural e humana.
-ms.date: 09/30/2016
+author: MSCommunityPubService
+ms.author: walteros
+ms.date: 10/24/2016
 ms.topic: how-to-article
-ms.service: Windows Forms
+ms.service: Modern Apps
 ms.custom: CommunityDocs
 ---
 
@@ -24,17 +26,17 @@ Um dos grandes desafios de um chat bot é ser um assistente para o usuário com 
 
 A imagem abaixo mostra um exemplo de um chat bot no Skype:
 
-![](./img/pic-001.png)
+![img](img/pic-001.png)
 
 ## O impacto nas redes sociais
 
 O número de usuários ativos em aplicativos de mensagens (como Skype, Slack, WhatsApp e Facebook Messenger) tem ultrapassado o número de usuários de redes sociais.
 
-![](./img/pic-002.png) 
+![img](img/pic-002.png) 
 
 Um estudo feito para o Facebook mostrou que a demanda de mensagens privadas tem sido muito superior em relação à demanda de posts. Ou seja, usuários estão interagindo mais através do aplicativo de mensagens do que dentro da própria rede social.
 
-![](./img/pic-003.png) 
+![img](img/pic-003.png) 
 
 Alta demanda por aplicativos de mensagens e volume de usuários crescendo cada vez mais. Ótimo momento para pensarmos em chat bots focados em negócios, não é mesmo? :)
 
@@ -46,7 +48,7 @@ O LUIS que estarei apresentando agora não é o meu colega, mas o que ele faz é
 
 Na página inicial do LUIS, é possível testar o funcionamento do serviço e visualizar a forma com que o resultado é gerado (em formato JSON). 
 
-![](./img/pic-004.png) 
+![img](img/pic-004.png) 
 
 **Intenções** (ou **Intents**) no LUIS são ações específicas desejadas para cada aplicação. Na imagem acima por exemplo, algumas intenções são: ligar e desligar todas as luzes, ligar a luz da esquerda e ligar a luz da direita.
 
@@ -54,7 +56,7 @@ O LUIS analisa o contexto de cada frase e gera uma pontuação (**score**) para 
 
 A intenção que possuir a maior pontuação é a que tem a maior probabilidade de combinação com a frase. Como mostrado na imagem abaixo, a frase *“agendar uma sala”* tem maior probabilidade de combinação com a intenção *“agendar”*, pois possui maior pontuação.
 
-![](./img/pic-005.png) 
+![img](img/pic-005.png) 
 
 Uma **Entidade** (ou **Entity**) é um conjunto de palavras-chave que o LUIS vai buscar dentro do contexto de uma frase que o usuário digita. Dentro de uma intenção podem ter várias entidades.
 
@@ -62,7 +64,7 @@ Como exemplo, imagine uma entidade chamada *“animal”*. Essa entidade pode en
 
 O LUIS permite criar modelos customizados de compreensão de linguagem, permitindo que as aplicações entendam comandos específicos de acordo com a necessidade. No caso da imagem abaixo, um modelo foi criado para duas situações: agendamento de salas e listagem de produtos. Desta forma, a aplicação entenderá apenas comandos para estas situações.
 
-![](./img/pic-006.png) 
+![img](img/pic-006.png) 
 
 Com essa visão geral sobre o LUIS podemos agora seguir com a visão geral do Microsoft Bot Framework REST API, que permitirá a integração do LUIS dentro da plataforma Bot Framework.
 
@@ -80,7 +82,7 @@ O Bot Builder permite criar diversos tipos de interações: uso de imagens, card
 Além disso é posível usar um emulador de chat para testes da aplicação, sem a necessidade de fazer deploy em produção constantemente. Por padrão o SDK já vem com uma extensão para integrar com o LUIS com seu bot.
 
 ### Developer Portal
-O portal do [Bot Framework](dev.botframework.com) para desenvolvedores permite registrar seu bot, conectá-lo a vários canais (como Skype, Slack, Telegram e Facebook Messenger), testar conexão, publicar e gerenciar bots.
+O portal do [Bot Framework](https://dev.botframework.com/) para desenvolvedores permite registrar seu bot, conectá-lo a vários canais (como Skype, Slack, Telegram e Facebook Messenger), testar conexão, publicar e gerenciar bots.
 
 Por padrão, ao criar seu bot ele já estará configurado para funcionar no Skype e por WebChat. Caso você queira incluir seu bot em outro canal, como o Slack por exemplo, basta incluí-lo na sua lista de canais e configurar de acordo com um passo a passo que o portal oferece.
 
@@ -91,7 +93,7 @@ O Bot Directory é um diretório público para todos os bots registrados e publi
 
 Você não precisa expor seu bot publicamente. Caso você necessite que o bot seja para uso restrito, o Developer Portal oferece botões para que você possa copiar a URL do seu bot e distribuir para quem precisa de acesso.
 
-![](./img/pic-007.png) 
+![img](img/pic-007.png) 
 
 ## Preparando seu ambiente: Pré-requisitos
 
@@ -104,19 +106,19 @@ Antes de iniciarmos o desenvolvimento do chat bot, assumiremos os seguintes pré
 
 Antes de iniciar a integração, será necessário obter os dados de duas chaves: **App Id** da aplicação LUIS e sua **Subscription Key**. Entre na página inicial do LUIS (https://www.luis.ai) e selecione **My Settings**. 
 
-![](./img/pic-008.png) 
+![img](img/pic-008.png) 
 
 Após entrar nas configurações, selecione a aba **Subscription Keys** e copie a **Programmatic API Key**.
 
-![](./img/pic-009.png) 
+![img](img/pic-009.png) 
 
 Volte para a página inicial do LUIS (https://www.luis.ai) e selecione sua aplicação com cenário e uso para Bot.
 
-![](./img/pic-010.png) 
+![img](img/pic-010.png) 
 
 Após entrar na página inicial da aplicação, clique em **App Settings**, no canto superior esquerdo da página e copie o **App Id**.
 
-![](./img/pic-011.png) 
+![img](img/pic-011.png) 
 
 Em seu projeto no Visual Studio não esqueça de configurar as chaves **MicrosoftAppId** e **MicrosoftAppPassword** no arquivo *Web.config*, geradas no momento de criação do bot no portal do Bot Framework.
 
@@ -149,7 +151,7 @@ No atributo **LuisModel**, você deve definir o App Id da sua aplicação LUIS e
 
 Uma Intent (ou intenção), como mostrado anteriormente, é uma definição de uma ação que você deseja. Por exemplo, dentro da nossa aplicação *MyChatBot*, foi criado uma intenção chamada *“listar”*. Esta intenção tem como objetivo listar todos os itens.
 
-![](./img/pic-012.png) 
+![img](img/pic-012.png) 
 
 No atributo **LuisIntent** da classe *RootLuisDialog.cs*, você define sua Intent criada na sua aplicação LUIS. Para cada Intent, você define uma Task assíncrona. Quando o usuário digita um texto, o LUIS determina qual Intent esse texto mais se aproxima e redireciona para a sua Task e executa. Neste caso, iremos criar uma Task para a Intent *“listar”*.
 
@@ -216,7 +218,7 @@ Após feita a mudança na Task Post, rode o projeto e abra o Microsoft Bot Frame
 
 Se você quiser usar o emulador para testar com seu ambiente na nuvem, você pode acessar o link [Bot Framework Emulator](https://docs.botframework.com/en-us/tools/bot-framework-emulator/).
 
-![](./img/pic-013.png) 
+![img](img/pic-013.png) 
 
 Desta forma já podemos ver o chat bot integrado com a aplicação LUIS. Quanto mais sentenças você treinar com o LUIS, mais natural será a interação do seu chat bot com os usuários. Após publicar sua aplicação na nuvem e incluir seu bot para canais como o Skype no portal do Bot Framework, você já poderá ver seu chat bot funcionando em ambiente de produção.
 

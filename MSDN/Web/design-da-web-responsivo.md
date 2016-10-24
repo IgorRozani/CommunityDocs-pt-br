@@ -2,6 +2,7 @@
 title: Design da Web responsivo
 description: Tudo começou com Design da Web responsivo, um artigo de Ethan Marcotte em A List Apart. Essencialmente, o artigo propunha lidar com o panorama de dispositivos, navegadores, tamanhos e orientações de tela em constante mudança através da criação de sites flexíveis, fluidos e adaptáveis.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 10/23/2016
 ms.topic: how-to-article
 ms.service: Web solutions
@@ -358,9 +359,9 @@ Várias opções para dimensionar e recortar imagens em CSS pode não ser o bast
 **Navegadores legados**
 
 E quanto a navegadores antigos que não suportam consultas de mídia? E quanto ao Internet Explorer antes da versão 8, que tem problemas com o dimensionamento de imagens? Soluções na forma de polyfills podem ajudar. Aqui estão alguns exemplos úteis.
-* [css3-mediaqueries.js de Wouter van der Graaf](code.google.com/p/css3-mediaqueries-js/)
-* [Response.js](github.com/scottjehl/Respond)
-* [Imagens fluidas](unstoppablerobotninja.com/entry/fluid-images/)
+* [css3-mediaqueries.js de Wouter van der Graaf](https://code.google.com/archive/p/css3-mediaqueries-js/)
+* [Response.js](https://github.com/scottjehl/Respond)
+* [Imagens fluidas](http://www.unstoppablerobotninja.com/entry/fluid-images/)
 
 ##Conclusão
 

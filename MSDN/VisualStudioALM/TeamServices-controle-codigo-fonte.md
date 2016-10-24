@@ -2,9 +2,10 @@
 title: Team Services, como controle de código fonte
 description: Olá pessoal, meu nome é Mauricio Junior e eu vou falar um pouco sobre o versionador de código integrado ao Visual Studio da Microsoft, além de comentar das possibilidades de integração existentes na ferramenta.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 10/18/2016
 ms.topic: how-to-article
-ms.service: Windows Forms
+ms.service: Team Services
 ms.custom: CommunityDocs
 ---
 

@@ -2,6 +2,7 @@
 title: Microsoft Azure - Windows Azure Pack (WAP)
 description: O WAP é um portal (Self-Service) baseado no portal do Windows Azure e tem como principal objetivo trazer todo o poder da tecnologia do Windows Azure aliada com o Windows Server e o System Center 2012 as empresas e prestadores de serviços terem a capacidade de entregar de serviços Web PAAS - Platform-as-a-Service e IAAS - Infrastructure-as-a-Service on premisses. Criando cenários de nuvem pública, privada e híbrida. Tudo isso sem custo adicional.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 09/02/2016
 ms.topic: how-to-article
 ms.service: Azure WAP
