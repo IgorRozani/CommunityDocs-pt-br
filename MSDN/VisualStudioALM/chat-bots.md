@@ -24,7 +24,7 @@ Um dos grandes desafios de um chat bot é ser um assistente para o usuário com 
 
 A imagem abaixo mostra um exemplo de um chat bot no Skype:
 
-![img](/img/pic-001.png)
+![img](img/pic-001.png)
 
 ## O impacto nas redes sociais
 
