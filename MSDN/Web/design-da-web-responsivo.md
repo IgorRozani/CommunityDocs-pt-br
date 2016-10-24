@@ -283,3 +283,99 @@ Bloco2
 }
 ```
 
+![Img](img/IC650128-06.png)
+
+Figura 9 - Um novo layout com duas colunas adjacentes
+
+A terceira amostra de grade exibe a tela em larguras maiores que 1220 pixels. Você define uma grade com um cabeçalho mais largo que engloba várias colunas e depois define três delas, cada qual ocupando uma fração do espaço disponível, com algumas colunas de 10 pixels entre elas (veja a Exemplo). O resultado é mostrado na Figura 11.
+
+Exemplo - Definição de um layout para telas mais largas
+
+```
+Bloco3
+@media only screen and (min-width: 1220px) {
+    #mygrid {
+        display: -ms-grid;
+        -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+        -ms-grid-rows: 100px 1fr;
+        margin: 5px;
+    }
+    #myheader {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 5;
+            background-color: #EEB215;
+    }
+    #block1 {
+            -ms-grid-row: 2;
+            -ms-grid-column: 1;
+            background-color: #B2B0B0;
+    }
+    #block2 {
+            -ms-grid-row: 2;
+            -ms-grid-column: 3;
+            background-color: #726E6E;
+            }
+    #block3 {
+            -ms-grid-row: 2;
+            -ms-grid-column: 5;
+            background-color: #515050;
+    }
+}
+```
+
+![Img](img/IC650128-07.png)
+
+Figura 11 - Três colunas lado a lado com um cabeçalho abrangente
+
+A especificação Grade é um acréscimo bem-vindo à implementação de designs de Web responsivos.
+
+Duas outras especificações de CSS também são dignas de nota: o [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/) (Flexbox) e o [Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/). Ambos representam grandes promessas para o design de sites responsivos.
+
+O Flexbox, atualmente um rascunho de trabalho no W3C, acrescenta suporte a quatro novos modos de layout: em bloco, alinhado, tabela e posicionado. Ele permite que você esquematize páginas complexas com posição relativa e tamanho constante, mesmo quando o tamanho da tela muda.
+
+O módulo de layout multicoluna é atualmente uma recomendação candidata no W3C. Essa solução se destina a conteúdo que você precisa dispor em colunas e que fluem de uma coluna para a seguinte. Você pode ver um exemplo interativo do layout multicoluna neste laboratório.
+
+Imagens e mídia flexíveis
+
+O aspecto final do design de Web responsivo são imagens e mídia flexíveis. Basicamente, esse recurso permite que você adapte suas imagens ou outras mídias para carregarem-se de forma diferente dependendo do dispositivo, através de dimensionamento ou usando a propriedade de estouro de CSS
+
+O dimensionamento em CSS é simples de implementar tanto para imagens como para vídeo. Você pode definir max-width do elemento de mídia como 100 por cento, e o navegador fará a imagem encolher ou expandir-se dependendo de seu contêiner. Você deve fornecer a imagem na melhor qualidade e tamanho possíveis e deixar a CSS adaptar a imagem para o tamanho correto.
+
+
+```
+CSS
+img, object 
+{
+     max-width: 100%;
+}
+```
+
+Uma alternativa para o dimensionamento de imagens é recortá-las com CSS. Por exemplo, aplicar overflow:hidden permite que se recortem imagens dinamicamente para que elas se ajustem à medida que os contêineres se redimensionam para se adaptarem a um novo ambiente de tela.
+
+Várias opções para dimensionar e recortar imagens em CSS pode não ser o bastante. Você precisa mesmo ocupar toda a largura de banda móvel de um visitante porque não tem uma versão menor de uma imagem? Para atender melhor aos usuários, imagens flexíveis podem significar uma imagem alternativa—ou até mesmo nenhuma imagem. Pessoas da comunidade de design de Web estão propondo [soluções](https://www.filamentgroup.com/lab/responsive-images-experimenting-with-context-aware-image-sizing.html) baseadas em JavaScript e cookies, e pode-se esperar mais disso conforme o design de Web responsivo evolui e se torna a base para muitos sites de qualidade.
+
+#Navegadores legados
+
+E quanto a navegadores antigos que não suportam consultas de mídia? E quanto ao Internet Explorer antes da versão 8, que tem problemas com o dimensionamento de imagens? Soluções na forma de polyfills podem ajudar. Aqui estão alguns exemplos úteis.
+* css3-mediaqueries.js de Wouter van der Graaf: code.google.com/p/css3-mediaqueries-js/
+* Response.js: github.com/scottjehl/Respond
+* Imagens fluidas. unstoppablerobotninja.com/entry/fluid-images/
+
+#Conclusão
+
+Entrar na onda do design de Web responsivo é algo para ser levado a sério. Considere o que você precisa conseguir e se atender a uma versão específica de um dispositivo desktop ou móvel específico é o ideal.
+
+O design de Web responsivo está em suas fases iniciais. Designers de Web continuarão a oferecer opiniões diferentes e recomendarão rumos relacionados a se criar primeiro para dispositivos móveis, como ajustar essas decisões no processo de design, dividir os computadores em todos os diferentes tamanhos de tela e assim por diante. E, à medida que mais e mais tamanhos de tela e fatores forma surgirem, a discussão continuará.
+
+Os padrões de HTML e de CSS estão evoluindo para ajudar designers de Web a lidarem com essas questões Está claro que alguma forma de design de Web responsivo será usado para se enfrentarem os desafios, e igualmente claro que padrões continuarão a evoluir conforme maneiras melhores de se lidar com o mundo dos dispositivos e navegadores, em eterna mudança, são descobertas.
+
+Aqui estão alguns recursos adicionais:
+
+* [Design de Web responsivo](http://alistapart.com/article/responsive-web-design)
+* [Técnicas, ferramentas e estratégias de design de Web responsivo](https://www.smashingmagazine.com/2011/07/responsive-web-design-techniques-tools-and-design-strategies/)
+* [Consultas de mídia de CSS3 rígidas](https://stuffandnonsense.co.uk/projects/320andup/)
+* [Golden Grid System]9http://goldengridsystem.com/)
+* [Uma olhada breve em layouts baseados em grade em design de Web](https://msdn.microsoft.com/pt-br/library/dn163510)
+
+
