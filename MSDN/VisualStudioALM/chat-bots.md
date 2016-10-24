@@ -1,9 +1,11 @@
 ---
 title: Construindo Chat Bots com a plataforma Microsoft Bot Framework
 description: Neste artigo irei abordar o conceito de chat bots e mostrar como podemos desenvolver aplicações inteligentes para interagir com usuários de forma mais natural e humana.
+author: MSCommunityPubService
+ms.author: walteros
 ms.date: 09/30/2016
 ms.topic: how-to-article
-ms.service: Windows Forms
+ms.service: Modern Apps
 ms.custom: CommunityDocs
 ---
 
