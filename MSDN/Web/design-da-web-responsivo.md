@@ -16,7 +16,7 @@ Web developer
 
 Tudo começou com Design da Web responsivo, um artigo de Ethan Marcotte em A List Apart. Essencialmente, o artigo propunha lidar com o panorama de dispositivos, navegadores, tamanhos e orientações de tela em constante mudança através da criação de sites flexíveis, fluidos e adaptáveis. Em vez de responder às necessidades de hoje de uma versão Web adaptada de desktop, junto com uma determinada versão móvel (frequentemente específica de um único dispositivo móvel), a ideia é abordar a questão ao contrário: usar layouts flexíveis e fluidos para se adaptarem a quase qualquer tela.
 
-#Conceitos básicos
+**Conceitos básicos**
 
 Três recursos técnicos principais são a alma do design de Web responsivo:
 
