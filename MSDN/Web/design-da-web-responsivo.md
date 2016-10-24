@@ -92,14 +92,21 @@ Por causa da natureza (em cascata da CSS, estilos padrão são definidos no alto
 As imagens a seguir apresentam um exemplo de uma abordagem de design de Web responsivo que usa consultas de mídia. A Figura 1 e a Figura 2 mostram uma área de trabalho usando o Internet Explorer 9 em duas resoluções diferentes. A Figura 3 mostra o mesmo site responsivo em um Windows Phone, também com o Internet Explorer 9.
 
 ![Img](img/IC650128-01.png)
+
 Figura 1 - A navegação aparece à esquerda.
+
 ![Img](img/IC650128-02.png)
+
 Figura 2 - Em uma janela redimensionada para 800x600, a navegação passa para o topo.
+
 ![Img](img/IC650128-03.png)
+
 Figura 3 - O mesmo site em um Windows Phone
 
 Se estiver procurando alguns exemplos ótimos de design de Web responsivo que tiram proveito total de consultas de mídia, o site de entusiastas (http://mediaqueri.es/) pode ser viciante, como mostra a Figura 4.
+
 ![Img](img/IC650128-04.png)
+
 
 Figura 4 - Um conjunto de sites que usam consultas de mídia
 
