@@ -30,7 +30,7 @@ O ponto principal é a adaptação às necessidades do usuário e às capacidade
 
 Embora os dispositivos móveis estejam mudando o panorama das telas, com o aparecimento crescente de mais e mais telas pequenas, não se esqueça do que está acontecendo do outro lado do espectro. Telas também estão se tornando cada vez maiores. Precisar atender aos dois segmentos não deveria impedir designers de serem inovadores em nenhum deles. 
 
-Consultas de mídia
+**Consultas de mídia**
 
 Começando com CSS 2.1, tipos de mídia eram usados para aplicara CSS tanto para tela como para impressão. Você deve se lembrar destes tipos de mídia:
 
@@ -110,13 +110,13 @@ Se estiver procurando alguns exemplos ótimos de design de Web responsivo que ti
 
 Figura 4 - Um conjunto de sites que usam consultas de mídia
 
-#Ouvintes de consultas de mídia
+**Ouvintes de consultas de mídia**
 
 Levando as consultas de mídia um passo adiante, o grupo de trabalho CSS Object Model (CSSOM) do W3C também criou ouvintes de consultas de mídia, que fornecem uma API para responder a mudanças nas consultas de mídia. Em vez de ter de pesquisar mudanças ou carregar várias versões de um recurso, você pode usar a API, por exemplo, para baixar imagens apenas de um determinado tamanho quando uma correspondência de consulta de mídia é disparada.
 
 Hoje, o Firefox e o the [Internet Explorer 10 Platform Preview](https://msdn.microsoft.com/library/hh673538.aspx#_DOMMediaQuery) implementam ouvintes de consultas de mídia; você pode ver a demonstração “Consultas de mídia CSS3 e Ouvintes de consultas de mídia” no test-drive do IE.
 
-#Uma palavra sobre o Viewport
+**Uma palavra sobre o Viewport**
 
 Quando testa consultas de mídia em navegadores móveis, você pode notar que as consultas corretas não estão sendo realmente aplicadas. Quando isso acontece, o navegador móvel está fazendo um trabalho em seu nome para renderizar a página de forma ideal na tela menor.
 
@@ -127,7 +127,7 @@ Então você acha que não há uma forma de se obter a resolução real? Na verd
 ```
 Outras configurações de viewport incluem maximum-zoom e initial-scale.
 
-#Grades flexíveis
+**Grades flexíveis**
 
 Um layout baseado em grade flexível é uma das pedras angulares do design responsivo. O termo "grade" é usado com bastante liberdade e não implica em um requisito de se implementar qualquer das estruturas de grade disponíveis. O que isso significa aqui é usar a CSS para posicionar e definir margens e espaçamento e para implementar vários [tipos de layout da Web](http://sixrevisions.com/web_design/a-guide-on-layout-types-in-web-design/) de uma forma nova. Layouts e tamanhos de texto são tipicamente expressos em pixels. Designers adoram pixels. O Photoshop adora pixels. Mas um pixel pode ser um ponto em um dispositivo e oito pontos em outro. Então como se aborda o design de Web responsivo se tudo se baseia em pixels? Você pode não gostar da resposta. Você para de usar layouts baseados em pixels e começa a usar porcentagens ou o em para dimensionamento.
 
@@ -165,7 +165,7 @@ Você também pode usar porcentagens. O algoritmo de cálculo é o mesmo; você 
 
 Grades flexíveis usam essa abordagem. Você pode encontrar várias estruturas para ajudá-lo a criar sua grade, como o [Fluid Grid System](http://ww7.newgoldleaf.com/) ou o [Fluid 960 Grid System](http://www.designinfluences.com/fluid960gs/) (uma versão fluida do 960 Grid System). Além disso, vários grupos dentro do W3C enviaram especificações novas para grades flexíveis melhores, com alguns resultados úteis.
 
-#CSS3 Grid Layout
+**CSS3 Grid Layout**
 
 O [CSS3 Grid Layout](https://drafts.csswg.org/css-grid-1/) (também conhecido como Alinhamento de grade, simplesmente, Grade), traz um sistema de grade típico à CSS, similar ao que desenvolvedores em XAML ou Silverlight podem estar familiarizados. Na ocasião deste artigo, a especialização é um "rascunho de editor”. Ela permite definir regiões em um layout, com colunas e linhas, distâncias, espaçamentos, preenchimentos, modelos de grade e mais, impondo separação completa de preocupações entre elementos HTML e CSS. Diferentemente de tabelas HTML que são conteúdo, a Grade permite a disposição de primitivos HTML em regiões de grade separadas do conteúdo em si.
 
@@ -336,7 +336,7 @@ O Flexbox, atualmente um rascunho de trabalho no W3C, acrescenta suporte a quatr
 
 O módulo de layout multicoluna é atualmente uma recomendação candidata no W3C. Essa solução se destina a conteúdo que você precisa dispor em colunas e que fluem de uma coluna para a seguinte. Você pode ver um exemplo interativo do layout multicoluna neste laboratório.
 
-Imagens e mídia flexíveis
+**Imagens e mídia flexíveis**
 
 O aspecto final do design de Web responsivo são imagens e mídia flexíveis. Basicamente, esse recurso permite que você adapte suas imagens ou outras mídias para carregarem-se de forma diferente dependendo do dispositivo, através de dimensionamento ou usando a propriedade de estouro de CSS
 
@@ -355,7 +355,7 @@ Uma alternativa para o dimensionamento de imagens é recortá-las com CSS. Por e
 
 Várias opções para dimensionar e recortar imagens em CSS pode não ser o bastante. Você precisa mesmo ocupar toda a largura de banda móvel de um visitante porque não tem uma versão menor de uma imagem? Para atender melhor aos usuários, imagens flexíveis podem significar uma imagem alternativa—ou até mesmo nenhuma imagem. Pessoas da comunidade de design de Web estão propondo [soluções](https://www.filamentgroup.com/lab/responsive-images-experimenting-with-context-aware-image-sizing.html) baseadas em JavaScript e cookies, e pode-se esperar mais disso conforme o design de Web responsivo evolui e se torna a base para muitos sites de qualidade.
 
-#Navegadores legados
+**Navegadores legados**
 
 E quanto a navegadores antigos que não suportam consultas de mídia? E quanto ao Internet Explorer antes da versão 8, que tem problemas com o dimensionamento de imagens? Soluções na forma de polyfills podem ajudar. Aqui estão alguns exemplos úteis.
 * css3-mediaqueries.js de Wouter van der Graaf: code.google.com/p/css3-mediaqueries-js/
@@ -370,7 +370,7 @@ O design de Web responsivo está em suas fases iniciais. Designers de Web contin
 
 Os padrões de HTML e de CSS estão evoluindo para ajudar designers de Web a lidarem com essas questões Está claro que alguma forma de design de Web responsivo será usado para se enfrentarem os desafios, e igualmente claro que padrões continuarão a evoluir conforme maneiras melhores de se lidar com o mundo dos dispositivos e navegadores, em eterna mudança, são descobertas.
 
-Aqui estão alguns recursos adicionais:
+**Aqui estão alguns recursos adicionais:**
 
 * [Design de Web responsivo](http://alistapart.com/article/responsive-web-design)
 * [Técnicas, ferramentas e estratégias de design de Web responsivo](https://www.smashingmagazine.com/2011/07/responsive-web-design-techniques-tools-and-design-strategies/)
