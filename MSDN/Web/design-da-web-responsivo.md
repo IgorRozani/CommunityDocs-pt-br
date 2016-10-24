@@ -208,3 +208,78 @@ HTML
 </div>
 ```
 
+Você começa dispondo os blocos de conteúdo debaixo uns dos outros para que o conteúdo se ajuste a smartphones (veja a Exemplo). Você podem acrescentar cores de fundo como mostrado na Figura 7 para tornar mais claro que está trabalhando com itens de grade.
+
+Exemplo - Disposição de blocos de conteúdo
+
+```
+Bloco 1
+@media only screen and (max-width : 480px) {
+    #mygrid {
+        display: -ms-grid;
+        margin: 3px;
+        -ms-grid-columns: 100%; /*one column taking full width */
+        -ms-grid-rows: 70px auto auto auto; /*4 rows */
+    }
+    #myheader {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+    }
+    #block1 {
+            -ms-grid-row: 2; /*place into row 2 / column 1*/
+            -ms-grid-column: 1;
+    }
+    #block2 {
+            -ms-grid-row: 3;
+            -ms-grid-column: 1;
+    }
+    #block3 {
+            -ms-grid-row: 4;
+            -ms-grid-column: 1;
+    }
+}
+```
+
+![Img](img/IC650128-05.png)
+
+Figura 7 - Blocos de conteúdo com cores de fundo
+
+No segundo exemplo, uma consulta de mídia aplica estilos definidos para tamanhos de tela superiores a 481 pixels—qualquer coisa mais larga que um smartphone típico. Você pode usar a Grade para definir duas colunas e mover os blocos para posições desejadas (veja a Exemplo). O resultado é mostrado na Figura 9.
+
+Exemplo - Definição de um novo layout para uma tela maior
+
+```
+Bloco2
+@media only screen and (min-width : 481px) {
+/*make two columns and move block 3 next to 1 — just because we can*/
+    #mygrid {
+        display: -ms-grid;
+        -ms-grid-columns: 10px 1fr 10px 1fr 10px; /*10px columns to spacing in between*/
+        -ms-grid-rows: 100px 1fr 1fr; /*100px row and two rows each taking 1 fraction
+                                          of available space*/
+        margin: 5px;
+    }
+    #myheader {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 5;
+            background-color: #EEB215;
+    }
+    #block1 {
+            -ms-grid-row: 2;
+            -ms-grid-column: 2;
+            background-color: #B2B0B0;
+    }
+    #block2 {
+       -ms-grid-row: 3;
+       -ms-grid-column: 2;
+       background-color: #726E6E;
+    }
+    #block3 {
+       -ms-grid-row: 2; /*block 3 can go into row 2*/
+       -ms-grid-column: 4;
+       background-color: #515050;
+    }
+}
+```
+
