@@ -122,7 +122,8 @@ Após entrar na página inicial da aplicação, clique em **App Settings**, no c
 
 Em seu projeto no Visual Studio não esqueça de configurar as chaves **MicrosoftAppId** e **MicrosoftAppPassword** no arquivo *Web.config*, geradas no momento de criação do bot no portal do Bot Framework.
 
-```xml
+```
+xml
 <appSettings>
     <!-- update these with your BotId, Microsoft App Id and your Microsoft App Password-->
     <add key="BotId" value="YourBotId" />
