@@ -45,45 +45,6 @@ Uma pergunta pertinente que aparece é como o ASP.NET Web API escolhe qual dos f
 
 ![](./img/IC674538.png)
 
-ASP.NET Web API - Formatadores 
-
-
-
-
-Israel Aece
-
-Julho 2013
-
-Um dos maiores benefícios ao se utilizar uma biblioteca ou um framework é a facilidade que ele nos dá para tornar a construção de algo mais simplificada, abstraindo alguns pontos complexos, permitindo com que o utilizador foque diretamente (e na maioria das vezes) na resolução de problemas voltados ao negócio, sem gastar muito tempo com questões inerentes à infraestrutura e/ou similares.
-
-A finalidade do ASP.NET Web API é justamente facilitar a construção de APIs para expor via HTTP. Apesar de uma das principais características de uma API é abraçar o HTTP, a abstração acaba sendo útil em alguns casos, mas em outros não. A Microsoft se preocupou com isso, abstraindo alguns aspectos para tornar a construção e o consumo destas APIs mais fáceis, sem perder o poder de customização e acesso aos recursos expostos pelo protocolo HTTP.
-
-Como vimos nos capítulos anteriores, possuímos os objetos HttpRequestMessage e HttpResponseMessage, quais podemos definir na assinatura das ações do controller e, consequentemente, ter o acesso total à todos os recursos do HTTP. Apesar de que em alguns casos isso possa ser útil, na sua grande maioria, temos que lidar com alguns pontos que a abstração poderia ajudar a nos manter mais focados no negócio do que na infraestrutura.
-
-Um grande exemplo disso tudo é o conteúdo (payload) da mensagem. Em geral, o corpo da mensagem representa um objeto que deve ser materializado e entregue ao método que tratará a requisição. A postagem que o cliente faz ao serviço pode ser realizada em diferentes formatos, como por exemplo: Json, Xml, Csv, formulário, etc.
-
-Como já foi dito anteriormente, o uso de um framework tem a finalidade de abstrair certos pontos para tornar a programação mais simples. Aqui temos um grande exemplo disso. O ASP.NET Web API fornece alguns recursos intrinsícos que torna a serialização e deserialização transparente ao ponto de vista do serviço/método. Esses recursos são o Model Binding e os Formatadores.
-
-As aplicações geralmente trabalham com objetos que descrevem suas características, onde estes objetos são manipulados o tempo todo, já que na grande maioria dos casos, ela acaba também sendo persistido no banco de dados, apresentado na tela, etc. Como esses objetos são parte do core da aplicação, é muito comum criarmos formulários que apresente a instância no mesmo na tela (HTML), para que o usuário seja capaz de editá-lo.
-
-Ao submeter o formulário para o servidor, todas as informações (querystrings, body, URI, etc.) chegam através de um dicionário, onde cada valor está associado à uma chave. Ao invés de manualmente construirmos a instância da classe baseada no corpo da requisição, o ASP.NET MVC já fez esse árduo trabalho para nós, e o responsável por isso são os model binders. Baseando-se na action para qual estamos postando a requisição, ele captura o tipo do objeto que precisa ser criado, mapeando o dicionário para cada uma de suas propriedades.
-
-Olhando mais de perto, os model binders são os responsáveis por construir os objetos, baseando-se em um dicionário que contém as informações que foram extraídas da requisição através de Value Providers. O ASP.NET Web API possui algumas implementações embutidas, mas nada impede de criarmos alguma customização tanto para o value provider (se quisermos customizar como extrair as informações da requisição), bem com o model binder (se quisermos customizar como construir a instância do objeto).
-
-Ao efetuar uma requisição para algum recurso sobre o protocolo HTTP, o servidor identifica o mesmo, faz o processamento, gera o resultado e, finalmente, devolve o resultado para o cliente que fez a solicitação. Por mais que isso não fica explícito, o conteúdo que trafega do cliente para o servidor (requisição) e do servidor para o cliente (resposta), sempre possui um formato específico.
-
-Em grande parte de todos os recursos fornecidos através do protocolo HTTP, uma das necessidades é justamente definir o formato deste conteúdo, que por sua vez, direciona a interpretação pelo navegador, por uma outra aplicação ou até mesmo de uma biblioteca, permitindo efetuar o parser do resultado e, consequentemente, materializar o mesmo em algo "palpável"/visível.
-
-Os formatos são representados por uma simples string, onde você tem uma primeira parte para descrever qual o tipo de conteúdo, e depois o seu formato. Por exemplo, ao invocar uma página onde o retorno é um conteúdo HTML, o formato será definido como text/html; ao solicitar uma imagem, o seu formato será definido como image/jpeg. Uma lista contendo todos os formatos de conteúdos disponíveis na internet, é gerenciada e mantida por entidade chamada IANA.
-
-Como o ASP.NET Web API tem uma forte afinidade com as características do HTTP, ele permite receber ou gerar conteúdos em formatos popularmente conhecidos pelo mercado, e vamos perceber que os serviços que criamos utilizando essa API nada sabem sobre o formato em que ele chegou ou o formato em que ele será devolvido para o cliente. O ASP.NET Web API unifica o processo de serialização e deserialização dos modelos através de formatadores, que baseado em um media type específico, executa o trabalho para materializar a requisição em um objeto de negócio (modelo).
-
-Apesar dos principais formatadores já estarem vinculados à execução, precisamos analisar a estrutura da classe que representa um media type para realizar futuras customizações. Para isso, a Microsoft criou uma classe abstrata chamada de MediaTypeFormatter, e já existem algumas implementações definidas dentro da API, como por exemplo, as classes XmlMediaTypeFormatter e JsonMediaTypeFormatter.
-
-Uma pergunta pertinente que aparece é como o ASP.NET Web API escolhe qual dos formatadores utilizar. A escolha se baseia no formato solicitado pelo cliente. O formato pode ser incluído como um item na requisição, através do header Accept ou do Content-Type. O ASP.NET Web API escolhe o formatador de acordo com o valor que ele encontra em um desses headers, e caso o formato definido não for encontrado, o padrão é sempre devolver o conteúdo em formato Json.
-
-![](./img/IC674538.png)
-
 Figura 16 - Hierarquia das classes de formatadores.
 
 Ao contrário do que fazemos no cliente, o serviço não trabalha diretamente com estes formatadores, pois isso fica sob responsabilidade de objetos internos, que durante a execução fazem todo o trabalho para encontrar para ler ou escrever o conteúdo no formato requisitado. O responsável por fazer esta análise e encontrar o formatador adequado é a classe DefaultContentNegotiator através do método Negotiate (fornecido pela interface IContentNegotiator).
