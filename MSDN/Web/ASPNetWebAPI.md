@@ -4,8 +4,8 @@ description: Para basear todas as funcionalidades expostas pela tecnologia, prec
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 10/27/2016
-ms.topic: how-to-article
-ms.service: Modern Apps
+ms.topic: Reference / API
+ms.service: ASP.Net Web API
 ms.custom: CommunityDocs
 ---
 
