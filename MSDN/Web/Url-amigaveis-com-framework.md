@@ -25,7 +25,7 @@ Quando o desenvolvedor cria um projeto do tipo vazio (*empty*), alguns *framewor
 
 A figura 1 mostra a criação do projeto do tipo Web.
 
-![Criando o projeto](img/url-1.png)
+![img](img/url-1.png)
 
 Figura 1 - Criando o projeto do tipo *Web*
 
