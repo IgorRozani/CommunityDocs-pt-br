@@ -66,8 +66,7 @@ Figura 6 - Solicitando autorização para instalação
 Note que o autor é a Microsoft, na minha opinião, mais confiável do que qualquer outro. Quando terminar de instalar, acesse o arquivo RouteConfig.cs localizado dentro da pasta App_Start e coloque algumas linhas de código. Instalado, as três primeiras linhas de código são colocadas na instalação, é necessário colocar os outros comandos *IgnoreRoute* e *MapRoute* com a necessidade MVC. Veja o code 1.1.
 
 
-`
-	
+``	
 	using System;
 	using System.Collections.Generic;
 	using System.Web;
@@ -95,9 +94,7 @@ Note que o autor é a Microsoft, na minha opinião, mais confiável do que qualq
         }
     }
 	}
-
-
-`
+``
 
 Fazendo tudo isso o seu código começa a entender e mostrar uma página sem extensão. Funciona muito bem, mesmo com o projeto zerado. Segue o link do código funcionando com a Url amigável.
 
