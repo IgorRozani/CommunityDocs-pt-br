@@ -4,15 +4,12 @@ description: O Power BI é uma ferramenta de relatórios que a Microsoft criou p
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 09/04/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Microsoft PowerBI
 ms.custom: CommunityDocs
 ---
-
-
-
-
-
 
 #drill-down no Power BI
 
@@ -122,3 +119,5 @@ Agradeço a oportunidade de poder compartilhar o conhecimento deste artigo. Qual
 
 #Sobre o Autor
 Renato Haddad rehaddad@msn.com – www.renatohaddad.com é MVP, MS Regional Director, MCPD e MCTS, palestrante em eventos da Microsoft em diversos países, ministra treinamentos focados em produtividade com o VS.NET 2013/2015, ASP.NET Core, 4/5, Power BI, Entity Framework, Reporting Services, Universal Windows Platform. Visite o blog http://weblogs.asp.net/renatohaddad.
+
+
