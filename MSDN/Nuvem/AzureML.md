@@ -4,11 +4,12 @@ description: A Microsoft tem disponível aos assinantes do Azure uma máquina de
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 09/02/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Azure ML
 ms.custom: CommunityDocs
 ---
-
 
 #Crie um Experimento com o Azure Machine Learning
 
@@ -179,3 +180,5 @@ Diante de terabytes de informações existentes no mundo, analisar dados de form
 
 # Sobre o Autor
 Renato Haddad (rehaddad@msn.com  – www.renatohaddad.com) é MVP, MS Regional Director, MCPD e MCTS, palestrante em eventos da Microsoft em diversos países, ministra treinamentos focados em produtividade com o VS.NET 2013/2015, ASP.NET 4/5, Entity Framework, Reporting Services, Windows Phone e Windows 8. Visite o blog http://weblogs.asp.net/renatohaddad.
+
+
