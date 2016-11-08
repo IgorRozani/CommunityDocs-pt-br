@@ -4,7 +4,9 @@ description: Um dos maiores benefícios ao se utilizar uma biblioteca ou um fram
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 10/27/2016
-ms.topic: Reference / API
+ms.topic: reference
+ms.prod: 
+ms.technology: 
 ms.service: ASP.Net Web API
 ms.custom: CommunityDocs
 ---

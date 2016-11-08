@@ -4,11 +4,12 @@ description: Antes da *Internet* aparecer e reinar no mundo, os *softwares* e pr
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 09/30/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Windows Forms
 ms.custom: CommunityDocs
 ---
-
 
 #Curso de Windows Forms Application
 
@@ -40,3 +41,5 @@ Para ajudar os desenvolvedores, eu criei um curso grátis localizado no Youtube 
 2. [Channel9: Windows Forms não morreu](https://channel9.msdn.com/Series/Windows-Forms)
 
 Espero que possa te ajudar como me ajudou no momento que precisava. Fiz este artigo para que entenda a minha posição e ideia do que estamos vivendo hoje no mundo do desenvolvimento de *software*. Qualquer dúvida, pode entrar em contato comigo pelo site [www.mauriciojunior.org](https://www.mauriciojunior.org).
+
+

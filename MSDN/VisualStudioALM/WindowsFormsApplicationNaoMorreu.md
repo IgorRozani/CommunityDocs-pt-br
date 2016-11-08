@@ -4,11 +4,12 @@ description: Olá pessoal, hoje eu vou falar um pouco sobre o Windows Forms. Vou
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 09/30/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Windows Forms
 ms.custom: CommunityDocs
 ---
-
 
 #Windows Forms Application não morreu
 
@@ -139,3 +140,5 @@ Código 3 - Botão de entrar
 Ao clicar no botão entrar, os dados são pegos do arquivo de configuração e armazenados em duas variáveis específicas ***(_nome e _senha)***. O próximo passo foi verificar se o usuário e senha estão iguais para poder chamar a tela principal. O comando this.Hide(); faz com que o formulário de login se esconda para chamar outro formulário classificado como principal ou pai. No caso da senha e usuário digitado errado, uma mensagem aparece para o usuário limpando os campos e colocar o foco no campo Nome.
 
 Bom, eu vou parar por aqui. Espero que tenha gostado e qualquer dúvida pode entrar em contato pelo site [www.mauriciojunior.org](https://www.mauriciojunior.org).
+
+

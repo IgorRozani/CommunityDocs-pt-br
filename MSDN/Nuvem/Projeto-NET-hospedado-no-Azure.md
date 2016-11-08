@@ -4,11 +4,12 @@ description: Olá pessoal, meu nome é Mauricio Junior e hoje eu vou falar um po
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 09/30/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Windows Forms
 ms.custom: CommunityDocs
 ---
-
 
 #Projeto .NET hospedado no Azure
 
@@ -114,3 +115,5 @@ Figura 9 - Listando os Web Apps
 Note que tudo o que foi falado aqui é bem simples e rápido, isto é, ajuda muito o desenvolvedor no momento da pulicação do site ou sistema no servidor. É impressionante o tanto que a Microsoft montou uma plataforma boa e efeciente, se preocupando com o bem estar do desenvolvedor que por muitas vezes perde muito tempo para publicar.
 
 Espero que tenha gostado e qualquer dúvida pode entrar em contato comigo pelo site [www.mauriciojunior.org](https://www.mauriciojunior.org).
+
+

@@ -4,11 +4,12 @@ description: Neste artigo irei abordar o conceito de chat bots e mostrar como po
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 10/24/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Modern Apps
 ms.custom: CommunityDocs
 ---
-
 
 # Construindo Chat Bots com a plataforma Microsoft Bot Framework
 
@@ -240,3 +241,5 @@ Para mais informações sobre o funcionamento do Bot Framework e do LUIS, você 
 
 ## Sobre o Autor
 Fernando de Oliveira (https://github.com/fernandobrs) é estagiário na Microsoft e estudante de Engenharia da Computação. Atualmente está desenvolvendo um livro digital focado em melhores práticas para bots ([UX Best Practices for Bot applications](https://aka.ms/ux-chatbots)).
+
+

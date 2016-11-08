@@ -4,11 +4,12 @@ description: Olá pessoal, meu nome é Mauricio Junior e eu vou falar um pouco s
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 10/18/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Team Services
 ms.custom: CommunityDocs
 ---
-
 
 #Team Services: como controle de código fonte
 
@@ -130,3 +131,5 @@ Figura 12 - Mostrando o *Check Out*
 
 
 Este é um dos serviços do Team Services disponível gratuitamente no site da Microsoft e oferecido de forma integrada pela ferramenta de desenvolvimento Visual Studio. Espero que tenha gostado e tenha aprendido. Já utilizei todos os versionadores citados e este nunca saiu do ar comigo como os outros. Qualquer dúvida, pode entrar em contato comigo pelo site [www.mauriciojunior.org](https://www.mauriciojunior.org)
+
+
