@@ -2,8 +2,11 @@
 title: Comentando Código Fonte
 description: Olá pessoal, hoje eu vou falar de um conceito que está confundindo a mente de alguns desenvolvedores e acabando com as boas práticas no desenvolvimento de *software*. É um assunto polêmico, mas com a minha experiência e visão do que está acontecendo hoje, precisei escrever um pouco sobre.
 author: MSCommunityPubService
+ms.author: walteros
 ms.date: 10/18/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Windows Forms
 ms.custom: CommunityDocs
 ---
@@ -110,3 +113,5 @@ Outras linguagens de *software* utilizam o comentário de outra maneira, por exe
 Espero que não me condene neste artigo, apenas compreenda. Você vai ver que não é perder tempo comentar. Lembro que todo este artigo foi feito de opinião pessoal e de pesquisa com outros profissionais.
 
 Espero que tenha gostado e qualquer dúvida pode entrar em contato pelo site [www.mauriciojunior.org](https://www.mauriciojunior.org).
+
+

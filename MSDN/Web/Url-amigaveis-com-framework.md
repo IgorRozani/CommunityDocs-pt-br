@@ -4,7 +4,9 @@ description: Olá pessoal, hoje eu vou falar e mostrar como trabalhar com Url am
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 10/23/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Web solutions
 ms.custom: CommunityDocs
 ---

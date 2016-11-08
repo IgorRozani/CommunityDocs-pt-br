@@ -4,7 +4,9 @@ description: Aqui eu mostro como bloquear a impressão de tudo, mesmo utilizando
 author: MSCommunityPubService
 ms.author: walteros
 ms.date: 09/06/2016
-ms.topic: how-to-article
+ms.topic: article
+ms.prod: 
+ms.technology: 
 ms.service: Web solutions
 ms.custom: CommunityDocs
 ---
