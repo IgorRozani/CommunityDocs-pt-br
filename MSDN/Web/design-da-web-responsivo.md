@@ -373,12 +373,4 @@ O design de Web responsivo está em suas fases iniciais. Designers de Web contin
 
 Os padrões de HTML e de CSS estão evoluindo para ajudar designers de Web a lidarem com essas questões Está claro que alguma forma de design de Web responsivo será usado para se enfrentarem os desafios, e igualmente claro que padrões continuarão a evoluir conforme maneiras melhores de se lidar com o mundo dos dispositivos e navegadores, em eterna mudança, são descobertas.
 
-**Aqui estão alguns recursos adicionais:**
-
-* [Design de Web responsivo](http://alistapart.com/article/responsive-web-design)
-* [Técnicas, ferramentas e estratégias de design de Web responsivo](https://www.smashingmagazine.com/2011/07/responsive-web-design-techniques-tools-and-design-strategies/)
-* [Consultas de mídia de CSS3 rígidas](https://stuffandnonsense.co.uk/projects/320andup/)
-* [Golden Grid System](http://goldengridsystem.com/)
-* [Uma olhada breve em layouts baseados em grade em design de Web](https://msdn.microsoft.com/pt-br/library/dn163510)
-
 
