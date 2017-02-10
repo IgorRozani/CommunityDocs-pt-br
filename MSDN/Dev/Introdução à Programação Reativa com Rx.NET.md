@@ -1,3 +1,18 @@
+---
+title: Introdução à Programação Reativa com Rx.NET
+description: Introdução à Programação Reativa com Rx.NET
+author: MSCommunityPubService
+ms.author: andygon
+ms.date: 02/10/2017
+ms.topic: article
+ms.prod: 
+ms.technology: 
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
+
+
+
 #Introdução à Programação Reativa com Rx.NET
 
 ##Bruno Sonnino
