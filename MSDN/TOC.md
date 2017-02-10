@@ -1,5 +1,6 @@
 # [Artigos Técnicos](index.md)
 ## [Nuvem](Nuvem/TOC.md)
 ## [Office](Office/TOC.md)
+## [Dev](Dev/TOC.md)
 ## [Web](Web/TOC.md)
 ## [Visual Studio ALM](VisualStudioALM/TOC.md)
