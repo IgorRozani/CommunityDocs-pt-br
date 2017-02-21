@@ -1,6 +1,6 @@
 ---
-title: Introdução à Programação Reativa com Rx.NET
-description: Introdução à Programação Reativa com Rx.NET
+title: Trabalhando com sensores em UWP – Parte 1 – Sensor de Luz
+description: Trabalhando com sensores em UWP – Parte 1 – Sensor de Luz
 author: MSCommunityPubService
 ms.author: andygon
 ms.date: 02/10/2017
