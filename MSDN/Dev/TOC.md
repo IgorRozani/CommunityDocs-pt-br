@@ -2,5 +2,5 @@
 #[Trabalhando com sensores em UWP – Parte 1 – Sensor de Luz](Trabalhando com sensores em UWP – Parte 1 – Sensor de Luz.md)
 #[Trabalhando com sensores em UWP - Parte 2 - Bússola](Trabalhando com sensores em UWP - Parte 2 - Bússola.md)
 #[Trabalhando com sensores em UWP - Parte 3 - Inclinômetro](Trabalhando com sensores em UWP - Parte 3 - Inclinômetro.md)
-
-
+#[Trabalhando com sensores em UWP - Parte 4 - Acelerômetro](Trabalhando com sensores em UWP - Parte 4 - Acelerômetro.md)
+#[Trabalhando com sensores em UWP - Parte 5 - Localização](Trabalhando com sensores em UWP - Parte 5 - Localização.md)
