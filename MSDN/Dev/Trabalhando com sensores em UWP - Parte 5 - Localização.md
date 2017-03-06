@@ -1,3 +1,18 @@
+---
+title: Trabalhando com sensores em UWP - Parte 4 - Acelerômetro
+description: Trabalhando com sensores em UWP - Parte 4 - Acelerômetro
+author: MSCommunityPubService
+ms.author: andygon
+ms.date: 03/06/2017
+ms.topic: article
+ms.prod: 
+ms.technology: 
+ms.service: win-dev
+ms.custom: CommunityDocs
+---
+
+
+
 # Trabalhando com sensores em UWP - Parte 5 - Localização #
 Esta última parte da série de artigos sobre sensores irá mostrar um tipo diferente de sensor - o sensor de localização. Na realidade, não podemos chamar ele de sensor, pois o serviço de localização irá obter a localização atual a partir do sensor de GPS, se ele existir. Se não, ele usará outros métodos, como a rede ou o WiFi para detectar a localização atual.
 
