@@ -4,3 +4,4 @@
 #[Trabalhando com sensores em UWP - Parte 3 - Inclinômetro](Trabalhando com sensores em UWP - Parte 3 - Inclinômetro.md)
 #[Trabalhando com sensores em UWP - Parte 4 - Acelerômetro](Trabalhando com sensores em UWP - Parte 4 - Acelerômetro.md)
 #[Trabalhando com sensores em UWP - Parte 5 - Localização](Trabalhando com sensores em UWP - Parte 5 - Localização.md)
+#[WPF reativo - Parte 2 - Reactive UI](ReactiveUI.md)
