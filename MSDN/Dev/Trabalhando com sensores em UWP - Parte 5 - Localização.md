@@ -1,6 +1,6 @@
 ---
-title: Trabalhando com sensores em UWP - Parte 4 - Acelerômetro
-description: Trabalhando com sensores em UWP - Parte 4 - Acelerômetro
+title: Trabalhando com sensores em UWP - Parte 5 - Localização
+description: Trabalhando com sensores em UWP - Parte 5 - Localização
 author: MSCommunityPubService
 ms.author: andygon
 ms.date: 03/06/2017
