@@ -3,20 +3,6 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "TN_Community",
-      "build_source_folder": "TechNet",
-      "build_output_subfolder": "TechNet",
-      "locale": "pt-br",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "op"
-    },
-    {
       "docset_name": "Docs_Community",
       "build_source_folder": "Docs",
       "build_output_subfolder": "Docs_Community",
