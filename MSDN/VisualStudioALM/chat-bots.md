@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Construindo Chat Bots com a plataforma Microsoft Bot Framework
 description: Neste artigo irei abordar o conceito de chat bots e mostrar como podemos desenvolver aplicações inteligentes para interagir com usuários de forma mais natural e humana.
 author: MSCommunityPubService

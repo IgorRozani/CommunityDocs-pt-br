@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Comentando Código Fonte
 description: Olá pessoal, hoje eu vou falar de um conceito que está confundindo a mente de alguns desenvolvedores e acabando com as boas práticas no desenvolvimento de *software*. É um assunto polêmico, mas com a minha experiência e visão do que está acontecendo hoje, precisei escrever um pouco sobre.
 author: MSCommunityPubService

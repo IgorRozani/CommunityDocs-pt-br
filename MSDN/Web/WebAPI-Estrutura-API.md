@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET Web API - Estrutura da API
 description: Apesar de serviços REST utilizar completamente o HTTP, é importante que tenhamos suporte para a construção e consumo destes tipos de serviços. Precisamos entender como estruturar, configurar e distribuir estes tipos de serviços.
 author: MSCommunityPubService

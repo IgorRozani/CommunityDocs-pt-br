@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: WPF reativo - Parte 2 - Reactive UI 
 description: WPF reativo - Parte 2 - Reactive UI 
 author: MSCommunityPubService
