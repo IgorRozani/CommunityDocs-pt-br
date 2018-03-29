@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Trabalhando com sensores em UWP – Parte 1 – Sensor de Luz
 description: Trabalhando com sensores em UWP – Parte 1 – Sensor de Luz
 author: MSCommunityPubService

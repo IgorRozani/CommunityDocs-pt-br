@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Projeto .NET hospedado no Azure
 description: Olá pessoal, meu nome é Mauricio Junior e hoje eu vou falar um pouco sobre como funciona a hospedagem .NET no servidor da Microsoft Azure. Muitos desenvolvedores não conhecem como funciona a hospedagem de site/sistema e não conhecem a plataforma chamada **Azure** como uma das maiores do mercado.
 author: MSCommunityPubService

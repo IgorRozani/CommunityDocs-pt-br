@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: ASP.NET Web API - Hosting
 description: Até o momento vimos algumas características do HTTP, a estrutura que uma API deve ter quando utilizamos o ASP.NET Web API, a configuração para rotear as requisições para um tratador (método), etc. Mas para dar vida a tudo isso, precisamos de algum elemento que faça com que toda essa estrutura seja ativada e, consequentemente, passe a tratar as requisições.
 author: MSCommunityPubService

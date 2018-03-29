@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Introdução à Programação Reativa com Rx.NET
 description: Introdução à Programação Reativa com Rx.NET
 author: MSCommunityPubService

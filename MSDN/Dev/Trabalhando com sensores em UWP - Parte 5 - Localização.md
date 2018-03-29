@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/
 title: Trabalhando com sensores em UWP - Parte 5 - Localização
 description: Trabalhando com sensores em UWP - Parte 5 - Localização
 author: MSCommunityPubService
